@@ -15,7 +15,7 @@ public class  GameScene : MonoBehaviour
     }
     
     public void jump(){
-
+        userController.jump();
     }
 
     public void exit(){
