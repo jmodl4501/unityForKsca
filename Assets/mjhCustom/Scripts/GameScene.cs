@@ -1,23 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System;
 
 public class  GameScene : MonoBehaviour
 {
-    // [SerializeField] private float gravityValue = -9.81f;
-
     [SerializeField] UserController userController;
 
     
     private void Start() {
-        
     }
+
+
     private void Update() {
-        
-    }
-    
-    public void jump(){
-        Debug.Log("jump Event");
-        userController.jump();
     }
 
     public void exit(){
